@@ -7,21 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BBE1F4B6214366B40052991A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE1F4B5214366B40052991A /* AppDelegate.swift */; };
-		BBE1F4B8214366B40052991A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE1F4B7214366B40052991A /* ViewController.swift */; };
-		BBE1F4BB214366B40052991A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBE1F4B9214366B40052991A /* Main.storyboard */; };
+		6507C651B558F6A2FDE8B8C6 /* Pods_imageDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4227A8E8743FCD35ED9797 /* Pods_imageDetector.framework */; };
+		BB60B2772155D8A00073B941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB60B2762155D8A00073B941 /* Main.storyboard */; };
+		BB60B5312156846F0073B941 /* barcode_128.png in Resources */ = {isa = PBXBuildFile; fileRef = BB60B52B2156846F0073B941 /* barcode_128.png */; };
+		BB60B5322156846F0073B941 /* image_has_text.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB60B52C2156846F0073B941 /* image_has_text.jpg */; };
+		BB60B5332156846F0073B941 /* liberty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB60B52D2156846F0073B941 /* liberty.jpg */; };
+		BB60B5342156846F0073B941 /* beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB60B52E2156846F0073B941 /* beach.jpg */; };
+		BB60B5352156846F0073B941 /* qr_code.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB60B52F2156846F0073B941 /* qr_code.jpg */; };
+		BB60B5362156846F0073B941 /* grace_hopper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB60B5302156846F0073B941 /* grace_hopper.jpg */; };
+		BB60B538215689860073B941 /* cellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB60B537215689860073B941 /* cellController.swift */; };
+		BB685DC32166D0F600071103 /* Lid.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB685DC22166D0F600071103 /* Lid.swift */; };
+		BB709E642155D2ED00A2FF70 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB709E5F2155D2ED00A2FF70 /* CameraViewController.swift */; };
+		BB709E652155D2ED00A2FF70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB709E602155D2ED00A2FF70 /* AppDelegate.swift */; };
+		BB709E662155D2ED00A2FF70 /* UIUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB709E612155D2ED00A2FF70 /* UIUtilities.swift */; };
+		BB709E672155D2ED00A2FF70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB709E622155D2ED00A2FF70 /* ViewController.swift */; };
+		BB709E682155D2ED00A2FF70 /* UIImage+VisionDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB709E632155D2ED00A2FF70 /* UIImage+VisionDetection.swift */; };
+		BBD0536D21682AAE001092F2 /* barstyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD0536C21682AAE001092F2 /* barstyle.swift */; };
 		BBE1F4BD214366B40052991A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBE1F4BC214366B40052991A /* Assets.xcassets */; };
 		BBE1F4C0214366B40052991A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBE1F4BE214366B40052991A /* LaunchScreen.storyboard */; };
+		BBE1F4C821436E880052991A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBE1F4C721436E880052991A /* GoogleService-Info.plist */; };
+		BBFB42C02168F27D00B4C37A /* Yellowtail.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBFB42BF2168F27D00B4C37A /* Yellowtail.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D4227A8E8743FCD35ED9797 /* Pods_imageDetector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_imageDetector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EDAA5EEC38506CE9CE25D7F /* Pods-imageDetector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imageDetector.release.xcconfig"; path = "Pods/Target Support Files/Pods-imageDetector/Pods-imageDetector.release.xcconfig"; sourceTree = "<group>"; };
+		7F34A6F831FFC875838254EB /* Pods-imageDetector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imageDetector.debug.xcconfig"; path = "Pods/Target Support Files/Pods-imageDetector/Pods-imageDetector.debug.xcconfig"; sourceTree = "<group>"; };
+		BB60B2762155D8A00073B941 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BB60B52B2156846F0073B941 /* barcode_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcode_128.png; sourceTree = "<group>"; };
+		BB60B52C2156846F0073B941 /* image_has_text.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_has_text.jpg; sourceTree = "<group>"; };
+		BB60B52D2156846F0073B941 /* liberty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = liberty.jpg; sourceTree = "<group>"; };
+		BB60B52E2156846F0073B941 /* beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beach.jpg; sourceTree = "<group>"; };
+		BB60B52F2156846F0073B941 /* qr_code.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qr_code.jpg; sourceTree = "<group>"; };
+		BB60B5302156846F0073B941 /* grace_hopper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grace_hopper.jpg; sourceTree = "<group>"; };
+		BB60B537215689860073B941 /* cellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellController.swift; sourceTree = "<group>"; };
+		BB685DC22166D0F600071103 /* Lid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lid.swift; sourceTree = "<group>"; };
+		BB709E5E2155D2EC00A2FF70 /* imageDetector-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "imageDetector-Bridging-Header.h"; sourceTree = "<group>"; };
+		BB709E5F2155D2ED00A2FF70 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		BB709E602155D2ED00A2FF70 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB709E612155D2ED00A2FF70 /* UIUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIUtilities.swift; sourceTree = "<group>"; };
+		BB709E622155D2ED00A2FF70 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB709E632155D2ED00A2FF70 /* UIImage+VisionDetection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+VisionDetection.swift"; sourceTree = "<group>"; };
+		BBD0536C21682AAE001092F2 /* barstyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barstyle.swift; sourceTree = "<group>"; };
 		BBE1F4B2214366B40052991A /* imageDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imageDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBE1F4B5214366B40052991A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BBE1F4B7214366B40052991A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BBE1F4BA214366B40052991A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBE1F4BC214366B40052991A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBE1F4BF214366B40052991A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBE1F4C1214366B40052991A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBE1F4C721436E880052991A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BBFB42BF2168F27D00B4C37A /* Yellowtail.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Yellowtail.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +62,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6507C651B558F6A2FDE8B8C6 /* Pods_imageDetector.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		030AB926A63B36114CDD0855 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D4227A8E8743FCD35ED9797 /* Pods_imageDetector.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB60B52A2156846F0073B941 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BBFB42BF2168F27D00B4C37A /* Yellowtail.ttf */,
+				BB60B52B2156846F0073B941 /* barcode_128.png */,
+				BB60B52C2156846F0073B941 /* image_has_text.jpg */,
+				BB60B52D2156846F0073B941 /* liberty.jpg */,
+				BB60B52E2156846F0073B941 /* beach.jpg */,
+				BB60B52F2156846F0073B941 /* qr_code.jpg */,
+				BB60B5302156846F0073B941 /* grace_hopper.jpg */,
+				BBD0536C21682AAE001092F2 /* barstyle.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		BBE1F4A9214366B40052991A = {
 			isa = PBXGroup;
 			children = (
 				BBE1F4B4214366B40052991A /* imageDetector */,
 				BBE1F4B3214366B40052991A /* Products */,
+				ED64BD1A4D637610F7826E65 /* Pods */,
+				030AB926A63B36114CDD0855 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +113,31 @@
 		BBE1F4B4214366B40052991A /* imageDetector */ = {
 			isa = PBXGroup;
 			children = (
-				BBE1F4B5214366B40052991A /* AppDelegate.swift */,
-				BBE1F4B7214366B40052991A /* ViewController.swift */,
-				BBE1F4B9214366B40052991A /* Main.storyboard */,
 				BBE1F4BC214366B40052991A /* Assets.xcassets */,
+				BB60B52A2156846F0073B941 /* Resources */,
 				BBE1F4BE214366B40052991A /* LaunchScreen.storyboard */,
+				BB60B2762155D8A00073B941 /* Main.storyboard */,
+				BBE1F4C721436E880052991A /* GoogleService-Info.plist */,
 				BBE1F4C1214366B40052991A /* Info.plist */,
+				BB709E602155D2ED00A2FF70 /* AppDelegate.swift */,
+				BB709E5F2155D2ED00A2FF70 /* CameraViewController.swift */,
+				BB709E632155D2ED00A2FF70 /* UIImage+VisionDetection.swift */,
+				BB709E612155D2ED00A2FF70 /* UIUtilities.swift */,
+				BB709E622155D2ED00A2FF70 /* ViewController.swift */,
+				BB709E5E2155D2EC00A2FF70 /* imageDetector-Bridging-Header.h */,
+				BB60B537215689860073B941 /* cellController.swift */,
+				BB685DC22166D0F600071103 /* Lid.swift */,
 			);
 			path = imageDetector;
+			sourceTree = "<group>";
+		};
+		ED64BD1A4D637610F7826E65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F34A6F831FFC875838254EB /* Pods-imageDetector.debug.xcconfig */,
+				6EDAA5EEC38506CE9CE25D7F /* Pods-imageDetector.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBE1F4C4214366B40052991A /* Build configuration list for PBXNativeTarget "imageDetector" */;
 			buildPhases = (
+				DFF748722677D80A9A4DFE74 /* [CP] Check Pods Manifest.lock */,
 				BBE1F4AE214366B40052991A /* Sources */,
 				BBE1F4AF214366B40052991A /* Frameworks */,
 				BBE1F4B0214366B40052991A /* Resources */,
+				1AD312FD3F4BAF55AD0E4D01 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +174,7 @@
 				TargetAttributes = {
 					BBE1F4B1214366B40052991A = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,35 +202,98 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBFB42C02168F27D00B4C37A /* Yellowtail.ttf in Resources */,
+				BB60B5362156846F0073B941 /* grace_hopper.jpg in Resources */,
 				BBE1F4C0214366B40052991A /* LaunchScreen.storyboard in Resources */,
+				BB60B5322156846F0073B941 /* image_has_text.jpg in Resources */,
+				BB60B2772155D8A00073B941 /* Main.storyboard in Resources */,
+				BB60B5342156846F0073B941 /* beach.jpg in Resources */,
+				BB60B5312156846F0073B941 /* barcode_128.png in Resources */,
+				BB60B5332156846F0073B941 /* liberty.jpg in Resources */,
+				BB60B5352156846F0073B941 /* qr_code.jpg in Resources */,
 				BBE1F4BD214366B40052991A /* Assets.xcassets in Resources */,
-				BBE1F4BB214366B40052991A /* Main.storyboard in Resources */,
+				BBE1F4C821436E880052991A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AD312FD3F4BAF55AD0E4D01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-imageDetector/Pods-imageDetector-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-imageDetector/Pods-imageDetector-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFF748722677D80A9A4DFE74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-imageDetector-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BBE1F4AE214366B40052991A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBE1F4B8214366B40052991A /* ViewController.swift in Sources */,
-				BBE1F4B6214366B40052991A /* AppDelegate.swift in Sources */,
+				BB709E652155D2ED00A2FF70 /* AppDelegate.swift in Sources */,
+				BB709E662155D2ED00A2FF70 /* UIUtilities.swift in Sources */,
+				BB709E682155D2ED00A2FF70 /* UIImage+VisionDetection.swift in Sources */,
+				BB60B538215689860073B941 /* cellController.swift in Sources */,
+				BB709E672155D2ED00A2FF70 /* ViewController.swift in Sources */,
+				BB709E642155D2ED00A2FF70 /* CameraViewController.swift in Sources */,
+				BB685DC32166D0F600071103 /* Lid.swift in Sources */,
+				BBD0536D21682AAE001092F2 /* barstyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BBE1F4B9214366B40052991A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BBE1F4BA214366B40052991A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BBE1F4BE214366B40052991A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,14 +414,37 @@
 		};
 		BBE1F4C5214366B40052991A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F34A6F831FFC875838254EB /* Pods-imageDetector.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E7U922W6SF;
+				ENABLE_BITCODE = YES;
+				ENABLE_ON_DEMAND_RESOURCES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/FirebaseMLCommon/Frameworks",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/FirebaseMLVisionTextModel/Frameworks",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/FirebaseInstanceID/Frameworks",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/FirebaseMLVisionFaceModel/Frameworks",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/GoogleMobileVision/BarcodeDetector/Frameworks",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/GoogleMobileVision/TextDetector/Frameworks",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/GoogleMobileVision/FaceDetector/Frameworks",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/GoogleMobileVision/LabelDetector/Frameworks",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/GoogleMobileVision/Detector/Frameworks",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/FirebaseMLVisionLabelModel/Frameworks",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/GoogleAppMeasurement/Frameworks",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/FirebaseMLVisionBarcodeModel/Frameworks",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/FirebaseMLVision/Frameworks",
+				);
 				INFOPLIST_FILE = imageDetector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thecrankfactory.imageDetector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "imageDetector/imageDetector-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,14 +452,36 @@
 		};
 		BBE1F4C6214366B40052991A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EDAA5EEC38506CE9CE25D7F /* Pods-imageDetector.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E7U922W6SF;
+				ENABLE_BITCODE = YES;
+				ENABLE_ON_DEMAND_RESOURCES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/FirebaseMLCommon/Frameworks",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/FirebaseMLVisionTextModel/Frameworks",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/FirebaseInstanceID/Frameworks",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/FirebaseMLVisionFaceModel/Frameworks",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/GoogleMobileVision/BarcodeDetector/Frameworks",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/GoogleMobileVision/TextDetector/Frameworks",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/GoogleMobileVision/FaceDetector/Frameworks",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/GoogleMobileVision/LabelDetector/Frameworks",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/GoogleMobileVision/Detector/Frameworks",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/FirebaseMLVisionLabelModel/Frameworks",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/GoogleAppMeasurement/Frameworks",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/FirebaseMLVisionBarcodeModel/Frameworks",
+					"$(PROJECT_DIR)/imageDetector/mlvision/Pods/FirebaseMLVision/Frameworks",
+				);
 				INFOPLIST_FILE = imageDetector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thecrankfactory.imageDetector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "imageDetector/imageDetector-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
